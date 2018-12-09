@@ -1,0 +1,116 @@
+#nav-bar {
+    background-color: #434343;
+    height: 70px;
+
+}
+
+.brand {
+    color: white;
+    font-size: 1.5em;
+    padding-top: 50%;
+}
+
+.section-logo {
+    text-align: center
+}
+
+.mybtn {
+    margin: 5% auto;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.myspn {
+    font-size: 2.3em;
+
+}
+
+.section-input {}
+
+.left {
+    float: left;
+    width: 50%;
+    height: 20em;
+    /* background-color: yellow; */
+
+}
+
+.right {
+    float: right;
+    width: 50%;
+    height: 20em;
+    /* background-color: green; */
+}
+
+.left-input {
+    width: 80%;
+    padding: 3em;
+
+}
+
+#usr {
+    border: none;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.part2 {
+
+    /* background-color: yellow; */
+    height: 200px;
+    margin-top: 3%;
+}
+
+.header {
+    background-color: #434343;
+    border-radius: 3px;
+    color: white;
+    font-size: 1.4em;
+}
+
+.total-input {
+    margin: 1.2%;
+}
+
+.txt {
+    text-align: right;
+}
+
+.mybtn2 {
+    text-align: center;
+}
+
+#final {
+    border: none;
+    width: 50%;
+}
+
+.part4 {
+    margin-bottom: 5%;
+    margin-top: 5%;
+
+}
+
+.input-txt2 {
+    text-align: right;
+}
+
+.text-area {
+    width: 50%;
+    padding-left: 10%;
+}
+
+.final {
+    background-color: #434343;
+    text-align: center;
+    color: white;
+}
+
+.download-btn {
+    text-align: center;
+    margin: 5%;
+
+}

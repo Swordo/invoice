@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <div class="container-fluid" id="nav-bar">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="#" class="nav-a"><span class="brand">Invoice Genarator</span></a>
+            </li>
+        </ul>
+    </div>
+    <section class="upload">
+        <div class="container">
+            <div class="row">
+                <button type="button" class="btn btn-outline-secondary mybtn">
+                    <p class="myadd"> <span class="myspn">+</span></br> Add Your Logo </p>
+                </button>
+            </div>
+        </div>
+    </section>
+    <div class="container" id="About-me">
+        <div class="row">
+            <section class="section-logo">
+
+            </section>
+            <div class="container section-input">
+                <div class="left">
+                    <div class="input-group input-group-lg left-input">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-lg">Bill to</span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm"
+                            placeholder="Person Name">
+                    </div>
+                    <hr>
+                    <div class="input-group input-group-lg left-input">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-lg">From</span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm"
+                            placeholder="Organization Name">
+                    </div>
+
+                </div>
+                <div class="right">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="usr" value="INVOICE">
+                    </div>
+                    <hr>
+                    <div class="form-group">
+                        <label for="usr">Invoice Number:</label>
+                        <input type="text" class="form-control info-input" placeholder="Invoice Number">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="usr">Date:</label>
+                        <input type="text" class="form-control info-input" placeholder="DD/MM/YYYY">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="usr">Due Date:</label>
+                        <input type="text" class="form-control info-input" placeholder="DD/MM/YYYY">
+                    </div>
+                    <hr>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container part2">
+        <div class="row">
+            <div class="col-6 header">
+                Description
+            </div>
+            <div class="col-2 header">
+                Quantity
+            </div>
+            <div class="col-2 header">
+                Rate
+            </div>
+            <div class="col-2 header">
+                Amount
+            </div>
+        </div>
+        <div class="row total-input">
+            <div class="col-6">
+                <div class="input-group">
+                    <textarea class="form-control" aria-label="With textarea" placeholder="Write Description"></textarea>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="form-group ">
+                    <input type="text" class="form-control txt" placeholder="Quantity">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="form-group ">
+                    <input type="text" class="form-control txt" placeholder="Rate">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="form-group ">
+                    <input type="text" class="form-control txt" placeholder="Amount">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 mybtn2">
+                <button type="button" class="btn btn-outline-dark">+ Line Item</button>
+            </div>
+        </div>
+    </div>
+    <div class="container part3">
+        <div class="row">
+            <div class="col-6">
+
+            </div>
+            <div class="col-6">
+                <div class="form-group ">
+                    <label for="usr">Subtotal:</label>
+                    <input type="text" class="form-control  input-txt2" placeholder="Subtotal">
+                </div>
+
+                <div class="form-group ">
+                    <label for="usr">Discount:</label>
+                    <input type="text" class="form-control input-txt2 " placeholder="Discount">
+                </div>
+
+                <div class="form-group ">
+                    <label for="usr">Paid:</label>
+                    <input type="text" class="form-control input-txt2 " placeholder="Paid">
+                </div>
+                <hr>
+                <div class="form-group total ">
+                    <input type="text" class="form-control input-txt3" id="final" placeholder="Total">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row part4">
+            <div class="input-group text-area">
+                <textarea class="form-control" aria-label="With textarea" placeholder="NOTE"></textarea>
+            </div>
+        </div>
+        <div class="row part4">
+            <div class="input-group text-area">
+
+                <textarea class="form-control" aria-label="With textarea" placeholder="TERMS"></textarea>
+            </div>
+        </div>
+        <div class="row download-btn">
+            <button type="button" class="btn btn-outline-dark">Download Invoice</button>
+        </div>
+
+    </div>
+
+
+
+    <footer>
+        <div class="container-fluid final">
+            <div class="footer-copyright text-center py-3">© 2018 Copyright:
+                <a href="https://www.youtube.com/watch?v=nFZP8zQ5kzk"> Created by Swordo </a>
+            </div>
+        </div>
+
+
+
+
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
